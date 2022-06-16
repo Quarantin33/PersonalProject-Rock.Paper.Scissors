@@ -1,0 +1,33 @@
+.footer{
+    width: 100vw;
+
+    .attribution{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 1rem;
+
+        a{
+            color: rgb(160, 160, 160);
+        }
+    }
+
+    button{
+        position: absolute;
+        bottom: 1rem;
+        padding: 7px 25px;
+        right: 1rem;
+        border-radius: .4rem;
+        border: 3px solid $header-outline;
+        color: lighten($header-outline,40%);
+        background: none;
+        font-weight: 600;
+        letter-spacing: 2px;
+
+        &:hover{
+            transition: 1.5s;
+            background-color: rgba($color: #cecaca, $alpha: .3);
+            cursor: pointer;
+        }
+    }
+}
